@@ -223,3 +223,70 @@ body {
   height: 382px;
   background-color: #E9E9E9;
 }
+
+.sub {
+  margin-top: 300px;
+}
+.sub_beans {
+  position: absolute;
+  margin-left: 1063px;
+  margin-top: -270px;
+}
+.sub_coffee {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: -170px;
+}
+.sub_title {
+  font-size: 50px;
+  font-weight: 900;
+}
+.sub_subtitle {
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: 500;
+  width: 800px;
+}
+.sub_input {
+  margin-top: 60px;
+  padding: 24px 0 20px 60px;
+  width: 1100px;
+  background-color: #F3F3F3;
+  border: none;
+  border-radius: 40px;
+}
+.sub_input::-moz-placeholder {
+  font-size: 25px;
+  font-weight: 500;
+  color: #C9C9C9;
+}
+.sub_input::placeholder {
+  font-size: 25px;
+  font-weight: 500;
+  color: #C9C9C9;
+}
+.sub_input_subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #5B5B5B;
+}
+.sub_input_subtitle a {
+  color: #F9B300;
+  text-decoration: none;
+}
+
+.footer_wrap {
+  margin-top: 190px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_wrap_items a {
+  padding-left: 100px;
+  color: #000;
+}
+.footer_wrap_items a:first-child {
+  padding-left: 0;
+}
