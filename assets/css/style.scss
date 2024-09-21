@@ -16,6 +16,10 @@
     font-family: Gilroy;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -193,9 +197,6 @@ body {
 
 .inst {
     margin-top: 97px;
-    &_wrap {
-
-    }
     &_title {
         display: flex;
         align-items: center;
@@ -232,9 +233,6 @@ body {
 
 .sub {
     margin-top: 300px;
-    &_wrap {
-
-    }
     &_beans {
         position: absolute;
         margin-left: 1063px;
@@ -256,8 +254,9 @@ body {
         width: 800px; 
     }
     &_input {
+        position: relative;
         margin-top: 60px;
-        padding: 24px 0 20px 60px;
+        padding: 34px 0 30px 60px;
         width: 1100px;
         background-color: #F3F3F3;
         border: none;
@@ -266,6 +265,18 @@ body {
             font-size: 25px;
             font-weight: 500;
             color: #C9C9C9;
+        }
+        &_btn {
+            position: absolute;
+            margin-top: 60px;
+            margin-left: -250px;
+            padding: 25px 53px;
+            background-color: #F9B300;
+            border: none;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 500;
         }
         &_subtitle {
             margin-top: 20px;
@@ -287,12 +298,14 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
     &_items a {
         padding-left: 100px;
         color: #000;
+        font-size: 25px;
+        font-weight: 500;
         &:first-child {
             padding-left: 0;
-            }
         }
     }
 }
